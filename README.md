@@ -1,3 +1,2 @@
 # CP
-
 Competitive Programming Questions.
