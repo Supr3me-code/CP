@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int t;
+    cin>>t;
+    while(t--){
+        int max=INT8_MIN,min = INT8_MAX; 
+        int size;
+        cin>>size;
+        int arr[size];
+        for(int i=0;i<size;i++){
+            cin>>arr[i];
+        }
+        for(int i=0;i<size;i++){
+            if(arr[i]>max)
+                max = arr[i];
+            if(arr[i]<min)
+                min = arr[i];
+        }
+        cout<<max<<" "<<min<<endl;
+    }
+}
